@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import re as r;from thefuzz import fuzz as f;from nltk.tokenize import WordPunctTokenizer as t
 d = [w.strip() for w in open("dictionary.txt", encoding="utf-8")]
 with open("original.txt", encoding="utf-8") as i:
