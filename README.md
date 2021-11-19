@@ -1,15 +1,12 @@
-# Computing in ancient Rome
+# Text corrector
+S'ha intentat reduïr al màxim la mida del codi a costa del rendiment, per exemple, per cada paraula es llegeix el fitxer de paraules, així s'estalvia una assignació.
+Es tracten els cassos especials de backslash amb caràcters pròxims (\) i es mantenen la resta de signes de puntuació. 
 
-In the old city of Rome, there have been writings that, because of the time of the writing, have been deteriorated. In order to help the cause, the archaelogy and philology of Rome have transcripted the text in `original.txt`.
+# Requeriments
+ - Python 3.8.10, Ubuntu 20.04
+ - pip install nltk==3.6.5
+ - pip install thefuzz==0.19.0
+ - (opcional) pip install python-Levenshtein==0.12.2
 
-From the other hand, they have also provided a latin dictionary. Therefore, you, #dailyhackers,must implement a traductor that, given the text and the dictionary, outputs the solution (text corrected).
-
-Good luck!
-
-## Submit requirements
-- Specify how to execute, install and compile your program.
-
-## How you will be scored
-- The more efficient program (experimetal cost), which also generalizes the problem case.
-
-
+# Instruccions
+cat original.txt | python main.py > output.txt
