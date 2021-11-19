@@ -1,0 +1,10 @@
+beneYíctus = benedíctum
+Agrupar les paraules per llargada, provar paraules mab +- 3 caràcters
+Implementació final en C
+
+Fer el codi en forma de creu o alguna cosa religiosa
+
+https://www.motherteresa.org/rosary/SP/Joyful/pages/Creed.html
+
+https://hozana.org/es/oracion/padre-nuestro/en-latin-pater-noster
+
