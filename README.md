@@ -1,4 +1,6 @@
 # Text corrector
+Utilitzant la distància de Levenshtein, per cada paraula, s'intenta buscar quina és la més similar de la llista de paraules proporcionada.
+
 S'ha intentat reduïr al màxim la mida del codi a costa del rendiment, per exemple, per cada paraula es llegeix el fitxer de paraules, així s'estalvia una assignació.
 Es tracten els cassos especials de backslash amb caràcters pròxims (\\) i es mantenen la resta de signes de puntuació. 
 
